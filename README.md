@@ -14,15 +14,15 @@ Sagemaker Neo compiles the trained machine learning model to obtain an optimal p
 
 The notebook samples contain fine-tuning pre-trained object detection models. Then the trained models are optimized for Jetson Nano. 
 
-* Mask Detection SSD Mobilenet GluonCV - The example describes finetuning an object detection model that predicts the presence of a mask. Single Shot multibox Detection(SSD) with MobilenetV1.0 is used for object detection.
+* [Mask Detection SSD Mobilenet GluonCV](https://github.com/basler/ai-vision-solution-kit-samples/sagemaker_neo_compilation_jobs_jetson_nano/train_object_detection_models/ssd_mask_detection_gluoncv) - The example describes finetuning an object detection model that predicts the presence of a mask. Single Shot multibox Detection(SSD) with MobilenetV1.0 is used for object detection.
 
-* Office Items Detection SSD Mobilenet GluonCV - Finetune a GluonCV SSD MobilenetV1.0 model to predict the office items such as Computer keyboard, Computer mouse, Computer monitor, Laptop, Desk and Chair.
+* [Office Items Detection SSD Mobilenet GluonCV](https://github.com/basler/ai-vision-solution-kit-samples/sagemaker_neo_compilation_jobs_jetson_nano/train_object_detection_models/ssd_officeitems_detection_gluoncv) - Finetune a GluonCV SSD MobilenetV1.0 model to predict the office items such as Computer keyboard, Computer mouse, Computer monitor, Laptop, Desk and Chair.
 
 ### Compile an existing model 
 
 Examples that provide a gentle introduction to compiling existing models for Jetson Nano.
 
-* [Person Detection SSD Mobilenet GluonCV](https://gitlab.com/edge-vision-software/experiments/solkit-examples-test/-/tree/feature/samples-jetson-nano/sagemaker_neo_compilation_jobs_jetson_nano/compile_existing_models/ssd_person_detection_gluoncv) - This example focuses on compiling an existing model in GluonCV. The model detects persons in an image. 
+* [Person Detection SSD Mobilenet GluonCV](https://github.com/basler/ai-vision-solution-kit-samples/sagemaker_neo_compilation_jobs_jetson_nano/compile_existing_models/ssd_person_detection_gluoncv) - This example focuses on compiling an existing model in GluonCV. The model detects persons in an image. 
  
 # Getting started
 For beginners, please refer to the setup guide for ai-solution-kit, training and compiling model for the target device and finally deploying the model on the edge device [AI Vision Solution Kit](https://imaginghub.com/projects/438-ai-vision-solution-kit-with-aws-cloud-connection).
