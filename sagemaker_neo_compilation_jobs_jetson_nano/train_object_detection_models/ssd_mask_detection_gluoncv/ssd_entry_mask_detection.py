@@ -210,6 +210,16 @@ def train(model, train_loader,ctx,args):
     return model
 
 
+def read_classes(file):
+    classes = []
+    with open(file,'r') as f:
+        lines = f.readlines()
+        for l in lines:
+            classes.append(l.split('\n')[0])
+    f.close()
+    return classes
+
+
 if __name__ == '__main__':
     args = parse_args()
     print('Arguments initialized. The training arguemnts are\n')
